@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0207B899E27DCE4D75AD2276 /* Pods_Todo_App_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BAC0E8ED9A1B6297CF287E /* Pods_Todo_App_Realm.framework */; };
 		1BF475CB25E5DE0500C71A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF475CA25E5DE0500C71A53 /* AppDelegate.swift */; };
 		1BF475CD25E5DE0500C71A53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF475CC25E5DE0500C71A53 /* SceneDelegate.swift */; };
 		1BF475D225E5DE0500C71A53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF475D025E5DE0500C71A53 /* Main.storyboard */; };
@@ -18,11 +17,11 @@
 		1BF475F225E5E0E100C71A53 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF475F125E5E0E100C71A53 /* CategoryTableViewController.swift */; };
 		1BF475F525E5E0F300C71A53 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF475F425E5E0F300C71A53 /* ItemTableViewController.swift */; };
 		1BF475F825E5E1A200C71A53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF475F725E5E1A200C71A53 /* Constants.swift */; };
+		5F7F226EC9EDFDB60000A1E6 /* Pods_Todo_App_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5190D3D48E729822619FED /* Pods_Todo_App_Realm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01BAC0E8ED9A1B6297CF287E /* Pods_Todo_App_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_App_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08D2234DC3245A3DBBA047F0 /* Pods-Todo App Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo App Realm.debug.xcconfig"; path = "Target Support Files/Pods-Todo App Realm/Pods-Todo App Realm.debug.xcconfig"; sourceTree = "<group>"; };
+		110C5672C00299A21B043AD2 /* Pods-Todo App Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo App Realm.debug.xcconfig"; path = "Target Support Files/Pods-Todo App Realm/Pods-Todo App Realm.debug.xcconfig"; sourceTree = "<group>"; };
 		1BF475C725E5DE0500C71A53 /* Todo App Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo App Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF475CA25E5DE0500C71A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF475CC25E5DE0500C71A53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +34,8 @@
 		1BF475F125E5E0E100C71A53 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		1BF475F425E5E0F300C71A53 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
 		1BF475F725E5E1A200C71A53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		87130807012666269135E625 /* Pods-Todo App Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo App Realm.release.xcconfig"; path = "Target Support Files/Pods-Todo App Realm/Pods-Todo App Realm.release.xcconfig"; sourceTree = "<group>"; };
+		7FC9AA5713EC2F5C721C1201 /* Pods-Todo App Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo App Realm.release.xcconfig"; path = "Target Support Files/Pods-Todo App Realm/Pods-Todo App Realm.release.xcconfig"; sourceTree = "<group>"; };
+		BF5190D3D48E729822619FED /* Pods_Todo_App_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_App_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0207B899E27DCE4D75AD2276 /* Pods_Todo_App_Realm.framework in Frameworks */,
+				5F7F226EC9EDFDB60000A1E6 /* Pods_Todo_App_Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 				1BF475C925E5DE0500C71A53 /* Todo App Realm */,
 				1BF475C825E5DE0500C71A53 /* Products */,
 				7559732A387F98FF57FB5F6A /* Pods */,
-				8DF288A63048543B68F944C1 /* Frameworks */,
+				C79A521629989C4CC9E9FD3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,16 +113,16 @@
 		7559732A387F98FF57FB5F6A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				08D2234DC3245A3DBBA047F0 /* Pods-Todo App Realm.debug.xcconfig */,
-				87130807012666269135E625 /* Pods-Todo App Realm.release.xcconfig */,
+				110C5672C00299A21B043AD2 /* Pods-Todo App Realm.debug.xcconfig */,
+				7FC9AA5713EC2F5C721C1201 /* Pods-Todo App Realm.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8DF288A63048543B68F944C1 /* Frameworks */ = {
+		C79A521629989C4CC9E9FD3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01BAC0E8ED9A1B6297CF287E /* Pods_Todo_App_Realm.framework */,
+				BF5190D3D48E729822619FED /* Pods_Todo_App_Realm.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,11 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BF475DB25E5DE0800C71A53 /* Build configuration list for PBXNativeTarget "Todo App Realm" */;
 			buildPhases = (
-				A58238C5088D1E631EA68A92 /* [CP] Check Pods Manifest.lock */,
+				9D063454CBB6C5AEEC87259D /* [CP] Check Pods Manifest.lock */,
 				1BF475C325E5DE0500C71A53 /* Sources */,
 				1BF475C425E5DE0500C71A53 /* Frameworks */,
 				1BF475C525E5DE0500C71A53 /* Resources */,
-				EE7E7F985496E42E1A875159 /* [CP] Embed Pods Frameworks */,
+				B5AB2B9FC97B581D5FA122DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,7 +195,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A58238C5088D1E631EA68A92 /* [CP] Check Pods Manifest.lock */ = {
+		9D063454CBB6C5AEEC87259D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,7 +217,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE7E7F985496E42E1A875159 /* [CP] Embed Pods Frameworks */ = {
+		B5AB2B9FC97B581D5FA122DA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,7 +391,7 @@
 		};
 		1BF475DC25E5DE0800C71A53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08D2234DC3245A3DBBA047F0 /* Pods-Todo App Realm.debug.xcconfig */;
+			baseConfigurationReference = 110C5672C00299A21B043AD2 /* Pods-Todo App Realm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -411,7 +411,7 @@
 		};
 		1BF475DD25E5DE0800C71A53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87130807012666269135E625 /* Pods-Todo App Realm.release.xcconfig */;
+			baseConfigurationReference = 7FC9AA5713EC2F5C721C1201 /* Pods-Todo App Realm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

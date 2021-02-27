@@ -15,10 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         do{
+            let item = Item()
+            item.title = "okokok"
         let realm = try Realm()
+            try realm.write {
+                realm.add(item)
+            }
         }catch{
             print(error)
         }
+        
+        print(Realm.Configuration.defaultConfiguration.fileURL!)
         return true
     }
 
